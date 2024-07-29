@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- title -->
+        <title>Spotify - Web Player: Music for everyone</title>
+
+        <!-- icon -->
+        <link rel="icon" type="image/png" href="logo.png">
+
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="Stylesheet" href="style.css">
+
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="main">
+            <div class="sidebar">
+                <div class="nav">
+                    <div class="nav-option">
+                        <i class="fa-solid fa-house"></i>
+                        <a href="#">Home</a>
+                    </div>
+                    <div class="nav-option">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <a href="#">Search</a>
+                    </div>
+                </div>
+                <div class="library">
+                    <div class="options">
+                        <div class="lib-option nav-option">
+                            <img src="library_icon.png">
+                            <a href="#">Your Library</a>
+                        </div>
+                        <div class="icons" style="margin-left: 2rem;"><i class="fa-regular fa-plus"></i></div>
+                        <div class="icons"><i class="fa-solid fa-arrow-right"></i></div>
+                    </div>
+                    <div class="boxes">
+                        <div class="box1">
+                            <p class="box-p1"><b>Create your first playlist</b></p>
+                            <p class="box-p2">it's easy we'll help you</p>
+                            <button class="badge1">Create playlist</button>
+                        </div>
+                        <div class="box1" style="height: 10.75rem;">
+                            <p class="box-p1"><b>Let’s find some podcasts to follow</b></p>
+                            <p class="box-p2">We’ll keep you updated on new episodes</p>
+                            <button class="badge2">Browse podcasts</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="main-con-nav">
+                    <div class="main-con-nav-icons">
+                        <div class="left-side">
+                            <button class="bkwd-btn"><i id="bkwd-icn" class="fa-solid fa-chevron-left"></i></button>
+                            <button class="frwd-btn"><i id="frwd-icn" class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                        <div class="right-side">
+                            <button class="button1">Explore Premium</button>
+                            <button class="button2"><i class="fa-regular fa-circle-down"></i>Install App</button>
+                            <button class="button3"><i class="fa-regular fa-bell"></i></button>
+                            <button class="button4"><i class="fa-solid fa-user"></i></button>
+                        </div>
+                    </div>
+                    <div class="main-con-nav-opt">
+                        <button class="all">All</button>
+                        <button class="music">Music</button>
+                        <button class="pod">Podcasts</button>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="artists">
+                        <button class="artist1">
+                            <img src="artists1.jfif" class="artist-img1">
+                            Dance songs Full energy
+                        </button>
+                        <button class="artist2">
+                            <img src="artist2.jfif" class="artist-img2">
+                            Sanam
+                        </button>
+                    </div>
+                    <div class="full-card">
+
+
+                        <a href="/server"><p>Episodes for you</p></a>
+                        <div class="only-cards">
+                            <button>
+                                <img src="hqdefault.jpg">
+                                <div>
+                                    <p class="p1">Exam Pressure में हिम्मत देगी 3 लड़कों की कहानी. Remove Self-Doubt.</p>
+                                    <p class="p2">2 Apr . 11 min</p>
+                                </div>
+                            </button>
+                            <button>
+                                <img src="shiva.jfif">
+                                <div>
+                                    <p class ="p1">महादेव का प्रतीक</p>
+                                    <p class="p2">Jul 2021 . 16 min</p>
+                                </div>
+                            </button>
+                            <button>
+                                <img src="bhagvat geet.jfif">
+                                <div>
+                                    <p class ="p1">SHRIMAD BHAGWADGITA ADHYAY 01</p>
+                                    <p class="p2">Jul 2021 . 12 min</p>
+                                </div>
+                            </button>
+                            <button>
+                                <img src="horro podcast.jfif">
+                                <div>
+                                    <p class ="p1">"Delivery Boy - Last Metro" Hindi Horror Story</p>
+                                    <p class="p2">1 Apr . 17 min</p>
+                                </div>
+                            </button>
+                            <button>
+                                <img src="stories of magabharata.jfif">
+                                <div>
+                                    <p class ="p1">Mahabharata Episode 1: Beginnings</p>
+                                    <p class="p2">Apr 2014 . 24 min</p>
+                                </div>
+                            </button>
+                            <button>
+                                <img src="15 mot stories.jpg">
+                                <div>
+                                    <p class ="p1">15 Motivational Stories in Hindi (Every Story is Inspiring and Life Changing) </p>
+                                    <p class="p2">Oct 2022 . 11 min</p>
+                                </div>
+                            </button>
+                        </div>
+
+
+                        <a href="/server"><p>Best episodes of the week</p></a>
+                        <div class="only-cards">
+                            <button>
+                                <img src="nany tyagi.jfif">
+                                <div>
+                                    <p class="p1">Nancy Tyagi On Cannes 2024, Bachpan, Struggle & Family | TRS हिंदी</p>
+                                    <p class="p2">25 May . 56 min</p>
+                                </div>
+                            </button>
+                            <button>
+                                <img src="real hit.jpg">
+                                <div>
+                                    <p class ="p1">Viral Vada Pav Girl Real Story 😱 ft. Chandrika Dixit | Realhit</p>
+                                    <p class="p2">25 May . 43 min</p>
+                                </div>
+                            </button>
+                            <button>
+                                <img src="ira karan.jpg">
+                                <div>
+                                    <p class ="p1">My Companion, Loneliness With Vir Das</p>
+                                    <p class="p2">25 May . 38 min</p>
+                                </div>
+                            </button>
+                            <button>
+                                <img src="jackie shroff.jfif">
+                                <div>
+                                    <p class ="p1">Tales of Bhidu Life & Gujju Food | Ft- Jaggu Dada</p>
+                                    <p class="p2">22 May . 29 min</p>
+                                </div>
+                            </button>
+                            <button>
+                                <img src="hariharan.jpg">
+                                <div>
+                                    <p class ="p1">Hariharan | The Music Podcast: Ghazals, Epic Collaborations, Bollywood, His Legacy & more    </p>
+                                    <p class="p2">23 May . 95 min</p>
+                                </div>
+                            </button>
+                        </div>
+
+
+                        <a href="/server"><p>Recently played</p></a>
+                        <div class="only-cards" id="recently-played">
+                            <button>
+                                <img src="artists1.jfif">
+                                <div>
+                                    <p class="p1">Uncancellable with Uorfi Javed ( VIDEO )</p>
+                                    <p class="p2">Big Bang Social</p>
+                                </div>
+                            </button>
+                            <button>
+                                <img style="border-radius: 100%;" src="sanam.jfif">
+                                <div>
+                                    <p class ="p1">Uncancellable with Uorfi Javed ( VIDEO )</p>
+                                    <p class="p2">Big Bang Social</p>
+                                </div>
+                            </button>
+                            <button>
+                                <img style="border-radius: 100%;"  src="hansraj.jfif">
+                                <div>
+                                    <p class ="p1">Uncancellable with Uorfi Javed ( VIDEO )</p>
+                                    <p class="p2">Big Bang Social</p>
+                                </div>
+                            </button>
+                            <button>
+                                <img src="teri bato m.jpg">
+                                <div>
+                                    <p class ="p1">Uncancellable with Uorfi Javed ( VIDEO )</p>
+                                    <p class="p2">Big Bang Social</p>
+                                </div>
+                            </button>
+                        </div>
+
+                        <a href="/server"><p>Hosted by celebrities</p></a>
+                        <div class="only-cards">
+                            <button>
+                                <img src="uncancellable.jpg ">
+                                <div>
+                                    <p class="p1">Uncancellable with Uorfi Javed ( VIDEO )</p>
+                                    <p class="p2">Big Bang Social</p>
+                                </div>
+                            </button>
+                            <button>
+                                <img src="masaba.jpg">
+                                <div>
+                                    <p class ="p1">Uncancellable with Uorfi Javed ( VIDEO )</p>
+                                    <p class="p2">Big Bang Social</p>
+                                </div>
+                            </button>
+                            <button>
+                                <img src="jaya bachan.jpg">
+                                <div>
+                                    <p class ="p1">Uncancellable with Uorfi Javed ( VIDEO )</p>
+                                    <p class="p2">Big Bang Social</p>
+                                </div>
+                            </button>
+                            <button>
+                                <img src="karan saxena.png">
+                                <div>
+                                    <p class ="p1">Uncancellable with Uorfi Javed ( VIDEO )</p>
+                                    <p class="p2">Big Bang Social</p>
+                                </div>
+                            </button>
+                            <button>
+                                <img src="virus 2062.jfif">
+                                <div>
+                                    <p class ="p1">Uncancellable with Uorfi Javed ( VIDEO )</p>
+                                    <p class="p2">Big Bang Social</p>
+                                </div>
+                            </button>
+                            <button>
+                                <img src="konkana sen.jpg">
+                                <div>
+                                    <p class ="p1">Uncancellable with Uorfi Javed ( VIDEO )</p>
+                                    <p class="p2">Big Bang Social</p>
+                                </div>
+                            </button>
+                        </div>
+
+                        <div class="other-things">
+                            <div class="other-things-1">
+                                <div>
+                                    <h6>Company</h6>
+                                    <a href="/about"><p>About</p></a>
+                                    <a href="/about"><p>Jobs</p></a>
+                                    <a href="/about"><p>For the Record</p></a>
+                                </div>
+                                <div>
+                                    <h6>Communities</h6>
+                                    <a href="/about"><p>For Artists</p></a>
+                                    <a href="/about"><p>Developers</p></a>
+                                    <a href="/about"><p>Advertising</p></a>
+                                    <a href="/about"><p>Investors</p></a>
+                                    <a href="/about"><p>Vendors</p></a>
+                                </div>
+                                <div>
+                                    <h6>Useful</h6>
+                                    <a href="/about"><p>Support</p></a>
+                                    <a href="/about"><p>Free Mobile App</p></a>
+                                </div>
+                                <div>
+                                    <h6>Spotify Plans</h6>
+                                    <a href="/about"><p>Premium Individual</p></a>
+                                    <a href="/about"><p>Premium Duo</p></a>
+                                    <a href="/about"><p>Premium Family</p></a>
+                                    <a href="/about"><p>Premimum Student</p></a>
+                                    <a href="/about"><p>Spotify Free</p></a>
+                                </div>
+                                <div class="other-things-button">
+                                    <button><i class="fa-brands fa-instagram"></i></button>
+                                    <button><i class="fa-brands fa-twitter"></i></button>
+                                    <button><i class="fa-brands fa-facebook"></i></button>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="other-things-2">
+                            <a href="/about">Legal</a>
+                            <a href="/about">Safety & Privacy Center</a>
+                            <a href="/about">Privacy Policy</a>
+                            <a href="/about">Cookies</a>
+                            <a href="/about">About Ads</a>
+                            <a href="/about">Accessibility</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="music-player">
+                    <div class="music-player-box1">
+                        <div>
+                            <button class="onex"><i class="fa-solid fa-1"></i><i class="fa-solid fa-xmark"></i></i></button>
+                            <button class="fifteen"><i class="fa-solid fa-arrow-rotate-left"></i></button>
+                            <button class="age-piche"><i class="fa-solid fa-backward-step"></i></button>
+                            <button class="circle-play"><i class="fa-solid fa-circle-play"></i></button>
+                            <button class="age-piche"><i class="fa-solid fa-forward-step"></i></button>
+                            <button class="fifteen"><i class="fa-solid fa-arrow-rotate-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="music-player-box2">
+                        <button><p>-------------------------</p></button>
+                    </div>
+            </div>
+        </div>
+    </body>
+</html>
